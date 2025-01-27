@@ -6,19 +6,19 @@ int main() {
 
     switch (grade){
         case 'A':
-        printf("Excellent");
+        printf("Excellent")
         break;
         case 'B':
-        printf("Good");
+        printf("Good")
         break;
         case 'C':
-        printf("Average");
+        printf("Average")
         break;
         case 'D':
-        printf("Below Average");
+        printf("Below Average")
         break;
         case 'F':
-        printf("Fail");
+        printf("Fail")
         break;
         default:
         printf("Invalid grade");
