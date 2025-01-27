@@ -2,9 +2,12 @@
 
 int main() {
     
-    int side1,side2,side3;
+    int s1,s2,s3;
+    scanf("%d",&s1);
+    scanf("%d",&s2);
+    scanf("%d",&s3);
 
-    if(((side3 < side1 + side2) && (side1 < side2 + side3) &&(side2 < side1 + side3))){
+    if((s1<s2+s3) && (s2<s1+s3) && (s3<s1+s2)){
         printf("Valid");
     }
     else{
