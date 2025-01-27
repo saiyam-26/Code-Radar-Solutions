@@ -6,9 +6,9 @@ int main() {
     scanf("%d",&num1);
     scanf("%d",&num2);
 
-    sum = (num1 | num2);
+    OR = (num1 | num2);
 
-    printf("%d",sum);
+    printf("%d",OR);
    
     return 0;
 }
