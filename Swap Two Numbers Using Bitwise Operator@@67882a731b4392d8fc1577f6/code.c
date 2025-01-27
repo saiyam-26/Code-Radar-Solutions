@@ -10,6 +10,6 @@ int main() {
     b=c;
 
     printf("%d",a);
-    printf("%d",b);
+    printf(" %d",b);
     return 0;
 }
