@@ -4,13 +4,13 @@ int main() {
     char light;
     scanf("%d",&light);
 
-    if(light=='R'){
+    if(light == 'R'){
         printf("Stop");
     }
-    else if(light=='G'){
+    else if(light == 'G'){
         printf("GO");
     }
-    if(light=='Y'){
+    if(light == 'Y'){
         printf("Slow Down");
     }
     else{
