@@ -8,7 +8,7 @@ int main() {
 
     if(s1!=s2 && s2!=s3 && s3!=s1){
         printf("Scalene");
-    }else if((s1==s2) && (s1==s3) &&(s2==s3)){
+    }else if((s1==s2) && (s3==s1) &&(s2==s3)){
         printf("Equilateral");
     }else{
         printf("Isoceles");
