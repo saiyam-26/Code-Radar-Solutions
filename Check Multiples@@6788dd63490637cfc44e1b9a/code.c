@@ -5,7 +5,7 @@ int main() {
     scanf("%d",&num);
     scanf("%d",&div);
 
-    if(div%num==0){
+    if(num%div==0){
         printf("Yes");
     }else{
         printf("No");
