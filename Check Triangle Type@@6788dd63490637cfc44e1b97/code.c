@@ -6,12 +6,12 @@ int main() {
     scanf("%d",&s2);
     scanf("%d",&s3);
 
-    if(s1!=s2!=s3){
+    if(s1!=s2 && s2!=s3 && s3!=s1){
         printf("Scalene");
-    }else if((s1==s2!=s3)||(s1==s3!=s2)||(s2==s3!=s2)){
-        printf("Isosceles");
-    }else{
+    }else if((s1==s2) && (s1==s3) &&(s2==s3)){
         printf("Equilateral");
+    }else{
+        printf("Isoceles");
     }
     return 0;
     }
