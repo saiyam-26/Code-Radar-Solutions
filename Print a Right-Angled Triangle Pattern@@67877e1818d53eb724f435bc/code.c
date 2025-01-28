@@ -6,7 +6,7 @@ int main() {
 
     for(int i=0; i<=rc; i++){
         for(int j=0; j<=rc ;j++){
-            if(j<=i){
+            if(j<i){
                 printf("*");
             }else{
                 printf(" ");
