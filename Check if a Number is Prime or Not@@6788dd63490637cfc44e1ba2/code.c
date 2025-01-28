@@ -20,14 +20,14 @@ int main() {
                 break;
             }else{
                 isPrime=1;
+            if(isPrime){
+                printf("Prime");
+            }else{
+                printf("Not Prime");
+            }
             }
         }
     }
 
-    if(isPrime){
-        printf("Prime");
-    }else{
-        printf("Not Prime");
-    }
     return 0;
 }
