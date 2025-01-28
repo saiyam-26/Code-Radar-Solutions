@@ -11,7 +11,7 @@ int main() {
     }else if((s1==s2) && (s3==s1) &&(s2==s3)){
         printf("Equilateral");
     }else{
-        printf("Isoceles");
+        printf("Isosceles");
     }
     return 0;
     }
