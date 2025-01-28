@@ -21,3 +21,7 @@ int main() {
     }
     return 0;
 }
+        printf("%d", num1 / num2);
+    }
+    return 0;
+}
