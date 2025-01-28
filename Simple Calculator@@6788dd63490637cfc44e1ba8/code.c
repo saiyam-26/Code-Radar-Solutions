@@ -13,10 +13,10 @@ int main() {
     else if(op == '-'){
         printf("%d", num1 - num2);
     }
-    if(op == '*'){
+    else if(op == '*'){
         printf("%d", num1 * num2);
     }
-    if(op == '/'){
+    else if(op == '/'){
         printf("%d", num1 / num2);
     }
     return 0;
