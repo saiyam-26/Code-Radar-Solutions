@@ -9,7 +9,7 @@ int main() {
             if(j<=i){
                 printf("*");
             }else{
-                printf(" ")
+                printf(" ");
             }
         }
         printf("/n");
