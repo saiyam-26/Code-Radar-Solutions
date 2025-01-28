@@ -7,17 +7,19 @@ int main() {
     scanf("%d",&num2);
     scanf("%c",&op);
 
-    if(op == '+'){
-        printf("%d", num1 + num2);
-    }
-    else if(op == '-'){
-        printf("%d", num1 - num2);
-    }
-    else if(op == '*'){
-        printf("%d", num1 * num2);
-    }
-    else if(op == '/'){
-        printf("%f", num1 / num2);
+    switch(op){
+        case'+':
+        printf("%d",num1 + num2);
+        break;
+        case'-':
+        printf("%d",num1 - num2);
+        break;
+        case'*':
+        printf("%d",num1 * num2);
+        break;
+        case'/':
+        printf("%d",num1 / num2);
+        break;
     }
     return 0;
 }
