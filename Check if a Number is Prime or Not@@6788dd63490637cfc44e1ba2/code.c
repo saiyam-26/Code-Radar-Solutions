@@ -11,6 +11,7 @@ int main() {
     }
     else if(num==2){
         printf("Prime");
+        break;
     }
     else{
         for(int i=2;i<num;i++){
