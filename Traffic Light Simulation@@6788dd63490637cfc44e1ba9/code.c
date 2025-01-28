@@ -2,7 +2,7 @@
 
 int main() {
     char light;
-    scanf("%d",&light);
+    scanf("%c",&light);
 
     if(light == 'R'){
         printf("Stop");
