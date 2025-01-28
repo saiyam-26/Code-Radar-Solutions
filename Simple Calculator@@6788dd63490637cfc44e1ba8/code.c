@@ -17,11 +17,7 @@ int main() {
         printf("%d", num1 * num2);
     }
     else if(op == '/'){
-        printf("%d", num1 / num2);
-    }
-    return 0;
-}
-        printf("%d", num1 / num2);
+        printf("%f", num1 / num2);
     }
     return 0;
 }
