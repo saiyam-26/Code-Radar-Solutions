@@ -8,9 +8,9 @@ int main() {
         printf("Stop");
     }
     else if(light == 'G'){
-        printf("GO");
+        printf("Go");
     }
-    if(light == 'Y'){
+    else if(light == 'Y'){
         printf("Slow Down");
     }
     else{
