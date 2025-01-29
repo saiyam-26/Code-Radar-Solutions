@@ -7,8 +7,8 @@ int main() {
     fgets(str2,100,stdin);
     printf("You entered:");
     puts(str1);
-    printf("and");
-    puts(str2);
+    // printf("and");
+    // puts(str2);
 
     return 0;
 }
