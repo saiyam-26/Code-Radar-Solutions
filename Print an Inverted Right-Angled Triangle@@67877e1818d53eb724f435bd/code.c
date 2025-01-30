@@ -6,8 +6,8 @@ int main() {
 
     for(int i=0;i<=n;i++){
         for(int j=0;j<=n;j++){
-            if(j<=6-i){
-                printf(" *");
+            if(j<=n-i+1){
+                printf(" * ");
             }else{
                 printf(" ");
             }
