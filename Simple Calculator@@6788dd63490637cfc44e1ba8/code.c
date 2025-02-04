@@ -5,7 +5,7 @@ int main() {
     char op;
     scanf("%d",&num1);
     scanf("%d",&num2);
-    scanf("%c",&op);
+    scanf(" %c",&op);
 
     switch(op){
         case'+':
@@ -18,7 +18,11 @@ int main() {
         printf("%d",num1 * num2);
         break;
         case'/':
-        printf("%d",num1 / num2);
+        if(num2 = 0){
+            printf("error");
+        }else{
+            printf("%d",num1 / num2);
+            }
         break;
     }
     return 0;
