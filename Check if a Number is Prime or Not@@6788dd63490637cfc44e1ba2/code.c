@@ -2,7 +2,7 @@
 
 int main() {
     int num;
-    int isPrime;
+    int isPrime = 1;
     scanf("%d",&num);
 
     if(num==1){
@@ -18,8 +18,6 @@ int main() {
             if(num%i==0){
                 isPrime=0;
                 break;
-            }else{
-                isPrime=1;
             }
         }
     if(isPrime){
