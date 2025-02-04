@@ -3,12 +3,9 @@
 int main() {
     char str1[100];
     char str2[100];
-    fgets(str1,100,stdin);
-    fgets(str2,100,stdin);
-    printf("You entered:");
-    puts(str1);
-    // printf("and");
-    // puts(str2);
+    scanf("%s",&str1);
+    scanf("%s",&str1);
+    printf("You entered: %s and %s",str1,str2);
 
     return 0;
 }
