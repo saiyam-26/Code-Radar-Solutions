@@ -8,11 +8,11 @@ int main(){
         int k =1;
         for(int j=1;j<=n;j++){
             if((j>=n+1-i)){
-                printf("%d ",i);
-                k=0;
+                printf("%d ",k);
+                k++;
             }else{
                 printf(" ");
-                k=1;
+
             }
         }
             printf("\n");
