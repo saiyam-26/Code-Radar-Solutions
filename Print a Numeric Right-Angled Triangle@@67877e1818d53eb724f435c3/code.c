@@ -10,10 +10,10 @@ int main(){
             if(j>=i){
                 printf("%d",k);
                 k++;
-            }else{
+            }el}se{
                 printf(" ");
             }
+        
         printf("\n");
-        }
     }
 }
