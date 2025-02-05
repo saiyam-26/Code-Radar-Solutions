@@ -6,7 +6,7 @@ int main(){
     int k=1;
 
     for(int i=1;i<n;i++){
-        for(intj=1;j<=13;j++){
+        for(int j=1;j<=13;j++){
             if((j>=n+1-i) &&(j<=n-1+i)){
                 if(j<(j+1)/2){
                     printf("%d",k);
