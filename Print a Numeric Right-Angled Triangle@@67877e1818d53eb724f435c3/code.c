@@ -8,7 +8,7 @@ int main(){
         int k=1
         for(int j=1;j<=num;j++){
             if(j>=i){
-                printf("%d",&k);
+                printf("%d",k);
                 k++;
             }else{
                 printf(" ");
