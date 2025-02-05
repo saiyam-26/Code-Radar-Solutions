@@ -8,9 +8,8 @@ int main() {
     scanf("%s",&str1);
     scanf("%s",&str1);
     printf("You entered: ");
-    puts[str1];
-    printf(" and");
-    puts[str1];
+    puts(str1);
+    puts(str2);
 
     return 0;
 }
