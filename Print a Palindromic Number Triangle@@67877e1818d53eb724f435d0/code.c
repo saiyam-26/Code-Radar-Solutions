@@ -10,7 +10,7 @@ int main(){
             if((j>=n+1-i) &&(j<=n-1+i)){
                 if(j<(j+1)/2){
                     printf("%d",k);
-                    k++
+                    k++;
                 }
                 else{
                     printf(" ");
