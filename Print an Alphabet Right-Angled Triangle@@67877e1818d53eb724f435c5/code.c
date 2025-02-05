@@ -11,5 +11,5 @@ int main(){
             printf("%c",ch);
         }
     }
-    printf("/n");
+    printf("\n");
 }
