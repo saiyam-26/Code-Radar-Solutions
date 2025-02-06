@@ -11,7 +11,6 @@ int main(){
                 printf("%c",ch);
                 ch++;
             }
-            i
         }
         printf("\n");
     }
