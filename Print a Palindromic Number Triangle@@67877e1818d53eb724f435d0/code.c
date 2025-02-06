@@ -1,25 +1,21 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int n;
-    scanf("%d",&n);
-    int k=1;
+    scanf("%d", &n);
 
-    for(int i=1;i<n;i++){
-        for(int j=1;j<=13;j++){
-            if((j>=8-i) &&(j<=6+i)){
-                if(j<(j+1)/2){
-                    printf("%d",k);
-                    k++;
-                }
-                else{
-                    printf(" ");
-                    k--;
-                }
-            }else{
+    for (int i = 1; i <= n; i++) {
+        int k = 1;  
+        for (int j = 1; j <= 2 * n - 1; j++) { 
+            if (j >= n + 1 - i && j <= n - 1 + i) {
+                printf("%d", k);
+                j < n ? k++ : k--; 
+            } else {
                 printf(" ");
             }
         }
         printf("\n");
     }
+
+    return 0;
 }
