@@ -15,13 +15,16 @@ int main(){
 }
 
 void checkPrime(int arr[],int n){
-    if(arr[i] == 1){
-        printf("0");
-    }else{
-        for(int i=2;i<=(arr[i]);i++){
+    for(int i=0;i<n;i++){
+        if(arr[i] == 1){
+            printf("0");
+        }else{
             int isPrime = 1;
-            if(arr[i] % i == 0){
-                isPrime = 0;
+            for(int j=2;j<=(arr[i]);j++){
+                
+                if(arr[i] % j == 0){
+                    isPrime = 0;
+                }
             }
         }
         }
