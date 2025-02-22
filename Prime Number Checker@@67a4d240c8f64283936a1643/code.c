@@ -16,24 +16,25 @@ int main(){
 
 void checkPrime(int arr[],int n){
     for(int i=0;i<n;i++){
-        if(arr[i] == 1){
+        int isPrime = 1;
+        if(arr[1] == 1){
             printf("0");
-        }else{
-            int isPrime = 1;
-            for(int j=2;j<=(arr[i]);j++){
-                
-                if(arr[i] % j == 0){
+        }
+        else{
+            for(j=2;j<n;j++){
+                if(arr[i]%j == 0){
                     isPrime = 0;
                     break;
                 }
-                
             }
             if(isPrime){
                 printf("1");
-            }else{
+            }
+            else{
                 printf("0");
             }
+
         }
-        }
+    }
     
 }
