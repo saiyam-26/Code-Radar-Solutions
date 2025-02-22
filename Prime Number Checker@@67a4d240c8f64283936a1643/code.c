@@ -24,13 +24,16 @@ void checkPrime(int arr[],int n){
                 
                 if(arr[i] % j == 0){
                     isPrime = 0;
+                    break;
                 }
+                
+            }
+            if(isPrime){
+                printf("1");
+            }else{
+                printf("0");
             }
         }
         }
-    if(isPrime){
-        printf("1");
-    }else{
-        printf("0");
-    }
+    
 }
