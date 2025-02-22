@@ -17,11 +17,11 @@ int main(){
 void checkPrime(int arr[],int n){
     for(int i=0;i<n;i++){
         int isPrime = 1;
-        if(arr[1] == 1){
+        if(arr[i] == 1){
             printf("0");
         }
         else{
-            for(j=2;j<n;j++){
+            for(int j=2;j<n;j++){
                 if(arr[i]%j == 0){
                     isPrime = 0;
                     break;
