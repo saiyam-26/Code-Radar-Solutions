@@ -1,5 +1,5 @@
 # include<stdio.h>
-void reverse(int arr[],int n);
+void reverse(int arr[],int n,int si,int ei);
 int main(){
     int n;
     scanf("%d",&n);
@@ -21,7 +21,7 @@ int main(){
     return 0;
 }
 
-void reverse(int arr[],int n,int si;int ei){
+void reverse(int arr[],int n,int si,int ei){
     int i,temp;
     for(i=si;i<ei;i++){
         temp = arr[i];
