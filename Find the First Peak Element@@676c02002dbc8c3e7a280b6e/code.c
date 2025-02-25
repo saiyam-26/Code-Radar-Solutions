@@ -13,7 +13,7 @@ int main(){
 
     
 
-    for (int i = 1 ;i < n-2; i++) {
+    for (int i = 1 ;i <= n; i++) {
     if(arr[i] > arr[i-1] && arr[i] > arr[i+1]){
         peak = arr[i];
          
