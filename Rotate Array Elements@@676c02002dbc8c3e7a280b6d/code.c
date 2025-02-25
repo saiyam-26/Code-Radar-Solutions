@@ -25,10 +25,10 @@ int main(){
 }
 
 void reverse(int arr[],int n,int si,int ei){
-    int i,temp;
-    for(i=si;i<ei;i++){
-        temp = arr[i];
-        arr[i] = arr[n-i-1];
-        arr[n-i-1] = temp;
+    while(si<ei){
+        int temp = si;
+        arr[si] = arr[ei];
+        arr[ei] = temp;
     }
+    
 }
