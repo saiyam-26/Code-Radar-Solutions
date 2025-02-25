@@ -26,7 +26,7 @@ int main(){
 
 void reverse(int arr[],int n,int si,int ei){
     while(si<ei){
-        int temp = si;
+        int temp = arr[si];
         arr[si] = arr[ei];
         arr[ei] = temp;
     }
