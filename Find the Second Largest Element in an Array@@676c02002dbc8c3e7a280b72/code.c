@@ -21,8 +21,12 @@ int main(){
     }
     }
     for (int i = 0; i < n; i++) {
-    if(smax < arr[i] && arr[i] != max){
-        smax = arr[i];
+        if(arr[i] == arr[i+1]){
+            printf("-1");
+            break;
+        }
+        else if(smax < arr[i] && arr[i] != max){
+            smax = arr[i];
          
     }
     }
