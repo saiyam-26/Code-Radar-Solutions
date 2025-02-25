@@ -2,7 +2,7 @@
 
 int main(){
     int n;
-    int Sorted = 0;
+    int Sorted = 1;
     scanf("%d",&n);
 
     int arr[n];
@@ -11,10 +11,9 @@ int main(){
     }
 
     for (int i = 0; i < n; i++) {
-    if(arr[i] <=arr[i+1]){
-        int Sorted = 1;
-    }else{
-        int Sorted = 0;;
+    if(arr[i] > arr[i+1]){
+         Sorted = 0;
+         break
     }
     }
     if(Sorted){
