@@ -15,7 +15,7 @@ int main(){
 
     for (int i = 0; i < n; i++) {
     if(arr[i] > arr[i+1] && arr[i+1] > arr[i+2]){
-        peak = arr[i];
+        peak = arr[i+1];
          
     }
     }
