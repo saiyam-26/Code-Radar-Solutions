@@ -16,7 +16,7 @@ int main(){
     reverse(arr,n,0,n-1);
     reverse(arr,n,0,k-1);
     reverse(arr,n,k,n-1);
-    printf("%d",arr[n]);
+    
 
     for (int i = 0; i < n; i++) {
     printf("%d ", arr[i]);
