@@ -29,6 +29,8 @@ void reverse(int arr[],int n,int si,int ei){
         int temp = arr[si];
         arr[si] = arr[ei];
         arr[ei] = temp;
+        si++;
+        ei--;
     }
     
 }
