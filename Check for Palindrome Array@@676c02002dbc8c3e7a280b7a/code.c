@@ -4,7 +4,7 @@
         scanf("%d",&t);
         int arr[t];
         for(int i=0;i<t;i++){
-            scanf("%d",arr[i]);
+            scanf("%d",&arr[i]);
         }
         int flag = 1;
         for(int i=0;i<t;i++){
@@ -13,7 +13,7 @@
                 break;
             }
         }
-        if(flag = 1){
+        if(flag == 1){
             printf("Yes");
         }
         else{
