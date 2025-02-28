@@ -3,7 +3,7 @@
         int t;
         scanf("%d",&t);
         int arr[t];
-        for(int i=0;i<n;i++){
+        for(int i=0;i<t;i++){
             scanf("%d",arr[i]);
         }
         int flag = 1;
