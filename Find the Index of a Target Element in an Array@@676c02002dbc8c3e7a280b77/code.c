@@ -19,7 +19,7 @@ int main(){
         
     }
 
-    if(flag){
+    if(flag == 0){
         printf("-1");
     }
     
