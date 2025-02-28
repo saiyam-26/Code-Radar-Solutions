@@ -27,8 +27,10 @@ int main(){
          
     }
     }
-    
-    printf("%d ",smax);
-   
+    if(smax < 0) {
+        printf("%d ",smax);
+    } else {
+        printf("-1");
+    }
     return 0;
 }
