@@ -13,6 +13,8 @@ int main(){
         if(arr[i]  == target){
             printf("%d",i);
         }
+        
+    }
     
     
     return 0;
