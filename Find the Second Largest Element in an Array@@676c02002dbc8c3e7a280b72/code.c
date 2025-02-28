@@ -27,7 +27,7 @@ int main(){
          
     }
     }
-    if(smax < 0) {
+    if(smax > 0) {
         printf("%d ",smax);
     } else {
         printf("-1");
