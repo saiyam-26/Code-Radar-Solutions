@@ -8,7 +8,7 @@ int fibonacciSeries(int n){
     }
     else{
 
-        fibonacciSeries(n) = fibonacciSeries(n-2) + fibonacciSeries(n-1);
-        return fibonacciSeries(n);
+        fibonacciSeries = fibonacciSeries(n-2) + fibonacciSeries(n-1);
+        return fibonacciSeries;
     }
 }
