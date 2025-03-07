@@ -16,12 +16,14 @@ int main(){
     for (int i = 1 ;i <= n; i++) {
     if(arr[i] > arr[i-1] && arr[i] > arr[i+1]){
         peak = arr[i];
-         
+        break;
     }
+    else peak = 0;
     }
     
     
-    printf("%d ", peak);
+    if (peak == 0) printf("-1");
+    else printf("%d",peak);
    
     
     return 0;
