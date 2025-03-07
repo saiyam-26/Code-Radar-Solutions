@@ -11,6 +11,6 @@ int fibonacciSeries(int n){
     if(fib[n] != -1){
 
         fib[n] = fibonacciSeries(n-2) + fibonacciSeries(n-1);
-        printf("%d",fib[n]);
+        return fib[n];
     }
 }
