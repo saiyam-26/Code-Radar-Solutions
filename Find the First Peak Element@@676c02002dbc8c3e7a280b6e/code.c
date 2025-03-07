@@ -13,8 +13,7 @@ int main(){
         peak = arr[i];
         break;
     }
-    else peak = 0;
-    }
+    
     
     
     if (peak == 0) printf("-1");
