@@ -9,7 +9,7 @@ int main(){
     }
     int peak = 0;
     for (int i = 1 ;i <= n; i++) {
-    if(arr[i] > arr[i-1] && arr[i] > arr[i+1] || (i == n-1 && arr[i-2] > arr[i-1])){
+    if(arr[i] > arr[i-1] && arr[i] > arr[i+1] || (i == n && arr[i-1] > arr[i])){
         peak = arr[i];
         break;
     }
