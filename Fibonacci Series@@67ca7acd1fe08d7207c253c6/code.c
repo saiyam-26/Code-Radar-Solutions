@@ -1,6 +1,6 @@
 int fib[50];
-int fib[0] = 0;
-int fib[1] = 1;
+fib[0] = 0;
+fib[1] = 1;
 
 void fibonacciSeries(int n){
     if(n == 0){
@@ -9,6 +9,9 @@ void fibonacciSeries(int n){
     else if(n == 1){
         return fib[1];
     }
+    else{
+
     fib[n] = fib[n-2] + fib[n-1];
     return fib[n];
+    }
 }
