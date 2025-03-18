@@ -4,7 +4,7 @@ void swap(int *a, int *b){
     *b = c;
 }
 
-bubbleSort(int arr , int n){
+bubbleSort(int *arr , int n){
     for(int j=0;j<n;j++){
 
         for(int i = 0; i < n; i++){
