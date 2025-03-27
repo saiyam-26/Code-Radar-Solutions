@@ -1,10 +1,13 @@
+void swap(int* i. int* j){
+    int temp = *i;
+    *i = *j;
+    *j = temp;
+}
 void bubbleSort(int arr,int n){
     for(int j=0;j<n;j++){
         for(int k=0;k<=n-j-1;k++){
             if(arr[k]>arr[k+1]){
-                int temp = arr[k];
-                arr[k] = arr[k+1];
-                arr[k+1] = temp;
+                swap(&arr[k],&arr[k+1]);
             }
         }
     }
