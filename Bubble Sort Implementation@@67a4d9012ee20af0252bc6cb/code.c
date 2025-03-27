@@ -5,7 +5,7 @@ void swap(int* i, int* j){
 }
 void bubbleSort(int arr,int n){
     for(int j=0;j<n;j++){
-        for(int k=1;k<=n-j-1;k++){
+        for(int k=j;k<=n-j-1;k++){
             if(arr[k]>arr[k+1]){
                 swap(&arr[k],&arr[k+1]);
             }
