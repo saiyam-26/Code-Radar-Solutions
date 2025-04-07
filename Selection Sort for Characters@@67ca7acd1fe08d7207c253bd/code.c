@@ -3,7 +3,7 @@ void swap(int* i, int* j){
     *i = *j;
     *j = temp;
 }
-void selectionSort(int arr[],int n){
+void selectionSort(char arr[],int n){
     for(int j=0;j<n;j++){
         for(int k=0;k<n-j-1;k++){
             if(arr[k]>=arr[k+1]){
