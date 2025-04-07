@@ -1,4 +1,4 @@
-void swap(int* i, int* j){
+void swap(char* i, char* j){
     int temp = *i;
     *i = *j;
     *j = temp;
@@ -14,6 +14,6 @@ void selectionSort(char arr[],int n){
 }
 void printArray(int arr[],int n){
     for(int z=0;z<n;z++){
-       printf("%c ",arr[z]);
+       printf("%d ",arr[z]);
     }
 }
